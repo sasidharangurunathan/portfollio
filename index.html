@@ -49,6 +49,21 @@
          p{
             padding: 0 10px;
          }
+        i{
+              width: 100px;
+              height: 100px;
+              background-color: red;
+              animation-name: example;
+              animation-duration: 2s;
+            }
+
+            @keyframes example {
+              0%   {background-color: rgb(255, 0, 0);}
+              25%  {background-color: yellow;}
+              50%  {background-color: blue;}
+              100% {background-color: rgb(128, 0, 60);}
+            }
+
 
     </style>
 </head>
@@ -74,6 +89,7 @@
   
         <div style="background-color: #f2f4f4; width:50%; height: 580px; float:left;">  
            <center><br><br><img src="./resumeimg.jpg" height="350px" width="350px"></center>
+            <i></i>
         </div>  
     </div>  
     <div class="div">
